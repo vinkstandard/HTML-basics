@@ -1,0 +1,84 @@
+<p class="video-title">
+  Talking Tech and AI with Google CEO Sundar Pichai!
+</p>
+
+<p class="video-stats">
+  3.4M views &#183 6 months ago
+</p>
+
+<p class="video-author">
+  Marques Brownlee &#10004
+</p>
+
+<p class="video-description">
+  Talking tech and AI on the heels of Google I/O. Also a daily driver phone reveal from Google's CEO. Shoutout to Sundar!
+</p>
+
+<p class="apple-text">
+  Shop early for the best selection of holiday favourites. <span class="shop-link">Shop now &#62;</span>
+</p>
+
+<style>
+    /* gli stili css non si leggono come il codice normale, non hanno la lettura da sopra a sotto */
+    /* utilizzano un sistema basato sulle priorità: se noi usiamo come SELECTOR p{} avrà meno */
+    /* priorità di un SELECTOR .nome-cosa{} poiché sappiamo che il "." davanti targhetta una classe */
+    /* quindi se in p{} settiamo il margin-bottom a 0, ma in un selector di classe modifichiamo quel margine */
+    /* quello di p{} verrà ignorato */
+    /* però i setting come font-family vengono applicati a tutti poichè nessuno cambia il font. */
+    /* e quindi ricapitolando: Il SELECTOR che è più specifico, è quello con la priorità più alta */
+
+    /* per la visualizzazione di simboli, conviene utilizzare i codici HTML piuttosto che copiarli */
+    /* poiché in alcuni browser potrebbero non essere visibili altrimenti */
+
+    p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+    }
+
+    .video-title {
+    font-weight: bold;
+    font-size: 18px;
+    width: 280px;      /* settando una lunghezza massima, forziamo il testo ad andare accapo */
+    line-height: 24px; /* lo spazio che separa una linea di testo da un altra */
+    margin-bottom: 5px;
+    }
+
+    .video-stats {/* i paragrafi di default partono con il margina sotto e sopra */
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 20px;
+    }
+
+    .video-author {
+     color: rgb(96, 96, 96);
+     font-size: 14px;
+     margin-bottom: 20px;
+    }
+
+    .video-description {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    width: 280px;
+    line-height: 22px;
+    margin-bottom: 100px;
+    }
+
+    .apple-text {
+    margin-bottom: 50px;
+    font-size: 14px;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    }
+
+    .shop-link {
+    cursor: pointer;
+    }
+
+    .shop-link:hover{
+    text-decoration: underline;
+    }
+</style>
