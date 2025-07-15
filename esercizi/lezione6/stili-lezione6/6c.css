@@ -1,0 +1,33 @@
+  p {
+      font-family: Verdana;
+      margin-bottom: 0;
+      margin-top: 0;
+  }
+
+  .titolo {
+      font-weight: bold;
+      margin-bottom: 4px;
+  }
+
+  .semi-desc {
+      color: gray;
+      margin-bottom: 25px;
+  }
+
+  .descrizione {
+      width: 300px;
+      margin-bottom: 25px;
+  }
+
+  .pulsante {
+      cursor: pointer;
+      background-color: green;
+      color: white;
+      border: none;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-left: 15px;
+      padding-right: 15px;
+      border-radius: 4px;
+      font-family: Verdana;
+  }
