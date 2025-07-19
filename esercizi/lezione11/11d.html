@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sezione 11 esercizio 11d</title>
+    <style>
+        .immagine {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .griglia {
+            display: grid;
+            grid-template-columns: 300px 300px 300px;
+            column-gap: 30px;
+        }
+
+        .finestra {
+            box-shadow: 0 0 8px rgba(32, 33, 36, 0.67);
+        }
+
+        .griglia-info {
+            display: grid;
+            grid-template-columns: 60px 1fr;
+            align-items: center;
+
+        }
+
+        p {
+            margin-left: 10px;
+            font-family: Arial;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .nome {
+            font-weight: bold;
+            font-size: 26px;
+        }
+
+        .amici {
+            font-size: 20px;
+            color: grey;
+        }
+
+        .pulsante {
+            margin-left: 10px;
+            margin-top: 15px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+            font-size: 24px;
+            border-radius: 6px;
+            background-color: rgb(34, 100, 223);
+            border: none;
+            color: white;
+            cursor: pointer;
+            align-items: center;
+        }
+
+        .pulsante:hover {
+            background-color: rgb(110, 149, 223);
+        }
+
+        .amici {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .mini-immagine {
+            width: 50px;
+            border-radius: 28px;
+            margin-left: 10px;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="griglia">
+
+        <div class="finestra">
+            <div class="box-immagine">
+                <img src="immagini/il-king.jpg" class="immagine">
+            </div>
+
+            <div>
+                <p class="nome">Rocky</p>
+            </div>
+
+            <div class="griglia-info">
+                <div class="immagine-canale">
+                    <img src="immagini/gatto1.jpg" class="mini-immagine">
+                </div>
+                <div class="amici-in-comune">
+                    <p class="amici">95 mutual friends</p>
+                </div>
+            </div>
+
+            <div class="">
+                <button class="pulsante">Add Friend</button>
+            </div>
+
+        </div>
+
+        <div class="finestra">
+            <div class="box-immagine">
+                <img src="immagini/gary.jpg" class="immagine">
+            </div>
+            <div>
+                <p class="nome">Gary</p>
+            </div>
+
+            <div class="griglia-info">
+                <div class="immagine-canale">
+                    <img src="immagini/gatto1.jpg" class="mini-immagine">
+                </div>
+                <div class="amici-in-comune">
+                    <p class="amici">16 mutual friends</p>
+                </div>
+            </div>
+
+
+            <div class="">
+                <button class="pulsante">Add Friend</button>
+            </div>
+        </div>
+
+        <div class="finestra">
+            <div class="box-immagine">
+                <img src="immagini/gatto3.jpg" class="immagine">
+            </div>
+            <div>
+                <p class="nome">Wiskers</p>
+            </div>
+
+            <div class="griglia-info">
+                <div class="immagine-canale">
+                    <img src="immagini/gatto1.jpg" class="mini-immagine">
+                </div>
+                <div class="amici-in-comune">
+                    <p class="amici">1 mutual friends</p>
+                </div>
+            </div>
+
+
+            <div class="">
+                <button class="pulsante">Add Friend</button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
