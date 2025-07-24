@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sezione 13 esercizio 13e</title>
+
+    <style>
+        .finestra {
+            width: 430px;
+            border-width: 1px;
+            border-radius: 6px;
+            box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.35);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .testa {
+            padding-top: 14px;
+            padding-left: 14px;
+            padding-bottom: 20px;
+        }
+
+        .slot-immagine {
+            align-items: center;
+            margin-left: 14px;
+            margin-right: 10px;
+
+        }
+
+        .immagine {
+            height: 50px;
+            width: 50px;
+            object-fit: cover;
+            border-radius: 25px;
+        }
+
+        .contenuto-scheda {
+            display: flex;
+
+        }
+
+        .slot-testi {
+            display: flex;
+            flex-direction: column;
+            margin-left: 6px;
+            margin-bottom: 30px;
+        }
+
+        .doppio-testo {
+            display: flex;
+            width: 320px;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body style="font-family: Arial;">
+
+    <div class="finestra">
+        <div class="testa">
+            <div style="color: grey; font-size: 14px;">ALL INBOXES</div>
+        </div>
+        <div class="contenuto-scheda">
+            <div class="slot-immagine">
+                <img src="immagini/gatto1.jpg" class="immagine">
+            </div>
+            <div class="slot-testi">
+                <div class="doppio-testo">
+                    <div style="
+                    font-weight: bold;
+                    ">Chewy Promotions</div>
+                    <div style="
+                    margin-right: -16px; 
+                    color: grey; 
+                    font-size: 14px;">4:58 PM</div>
+                </div>
+                <div style="font-weight: bold;font-size: 14px; margin-top: 4px;">Biggest sales of the year!</div>
+                <div style="color: grey; margin-top: 4px;">Hey there! We're writing to tell you about our..</div>
+            </div>
+        </div>
+
+        <div class="contenuto-scheda">
+            <div class="slot-immagine">
+                <img src="immagini/gatto2.jpeg" class="immagine">
+            </div>
+            <div class="slot-testi">
+                <div class="doppio-testo">
+                    <div style="font-weight: bold;">Best Buy</div>
+                    <div style="margin-right: -16px; color: grey; font-size: 14px;">12:32 PM</div>
+                </div>
+                <div style="font-weight: bold; font-size: 14px; margin-top: 4px;">Your Best Buy eReceipt</div>
+                <div style="color: grey; margin-top: 4px;">Thank you for shopping at Best Buy, here is...</div>
+            </div>
+        </div>
+
+        <div class="contenuto-scheda">
+            <div class="slot-immagine">
+                <img src="immagini/gatto3.jpg" class="immagine">
+            </div>
+            <div class="slot-testi">
+                <div class="doppio-testo">
+                    <div style="font-weight: bold;">Netflix</div>
+                    <div style="margin-right: -16px; color: grey; font-size: 14px;">9:00 AM</div>
+                </div>
+                <div style="font-weight: bold; font-size: 14px; margin-top: 4px;">Here's what's coming soon on Netflix
+                </div>
+                <div style="color: grey; margin-top: 4px;">Bran new movies and shows, old favorites...</div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
