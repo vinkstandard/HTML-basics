@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Sezione 13 esercizio 13b</title>
+    <style>
+        .principale {
+            display: flex;
+            height: 50px;
+        }
+
+        .sinistra {
+            display: flex;
+            width: 100px;
+            background-color: lightpink;
+        }
+
+        .destra {
+            background-color: lightblue;
+            display: flex;
+            width: 200px;
+            flex-direction: column;
+        }
+
+        .seconda-riga{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="principale">
+
+        <div class="sinistra"></div>
+
+        <div class="destra">
+            <div class="prima-riga">
+                <div>Row1</div>
+            </div>
+            <div class="seconda-riga">
+                <div style="color: white; background-color: black;">Row2</div>
+                <div style="color: white; background-color: black;">Row2</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
