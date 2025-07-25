@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sezione 14 esercizio 14e</title>
+    <style>
+        .header {
+            position: fixed;
+            left: 0;
+            right: 0;
+        }
+
+        .flexbox {
+            display: flex;
+            align-items: center;
+            ;
+        }
+
+        .slot-immagine {
+            padding-left: 20px;
+            padding-right: 10px;
+        }
+
+        .immagine {
+            width: 50px;
+            border-radius: 25px;
+        }
+
+        .nome {
+            flex: 1;
+        }
+
+        .pulsante-1,
+        .pulsante-2 {
+            height: 35px;
+            width: 100px;
+            border-radius: 6px;
+            cursor: pointer;
+            border: none;
+
+        }
+
+        .pulsante-1 {
+            margin-right: 8px;
+            color: white;
+            background-color: rgb(57, 114, 211);
+            font-weight: bold;
+        }
+
+        .pulsante-2 {
+            margin-right: 40px;
+            font-weight: bold;
+            background-color: rgb(214, 214, 214);
+
+        }
+    </style>
+</head>
+
+<body style="
+font-family: Arial;
+height: 3000px;
+">
+    <div class="header">
+        <div class="flexbox">
+            <div class="slot-immagine">
+                <img src="immagini/gatto1.jpg" class="immagine">
+            </div>
+            <div class="nome" style="font-weight: bold;">
+                Oliver Cat
+            </div>
+            <button class="pulsante-1">Add Friend</button>
+            <button class="pulsante-2">Message</button>
+        </div>
+    </div>
+</body>
+
+</html>
