@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sezione 15 esercizio 15f</title>
+    <style>
+        .slot-immagine {
+            position: relative;
+            display: inline-block;
+        }
+
+        .sconto {
+            position: absolute;
+            background-color: black;
+            color: white;
+            top: 15px;
+            right: 0;
+            font-size: 25px;
+            padding-right: 15px;
+            padding-left: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .finestra-trasparente {
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.795);
+            height: 130px;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        .slot-pulsante {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        button {
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-width: 1.5px;
+        }
+    </style>
+</head>
+
+<body style="font-family: Arial; height: 3000px;">
+    <div class="slot-immagine">
+        <img src="immagini/camicia.png">
+        <div class="sconto">20% OFF</div>
+        <div class="finestra-trasparente">
+            <div class="slot-pulsante">
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
